@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/blue_grey"
+    tools:context=".add_res">
+
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:src="@drawable/logo"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="@string/logo" />
+
+
+    <EditText
+        android:id="@+id/res_nameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/resname"
+        android:inputType="text"
+        android:layout_marginTop="16dp"
+        android:autofillHints="" />
+
+
+    <EditText
+        android:id="@+id/res_locEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/resloc"
+        android:inputType="text"
+        android:layout_marginTop="16dp"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/res_phoneEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/resphone"
+        android:inputType="phone"
+        android:layout_marginTop="16dp"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/res_desEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/resdesc"
+        android:inputType="text"
+        android:layout_marginTop="16dp"
+        android:autofillHints="" />
+
+
+    <EditText
+        android:id="@+id/res_ratEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/resrating"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="16dp"
+        android:autofillHints="" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <!-- Sign Up Button -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/addBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/add_btn"
+            android:textColor="@color/black"
+            android:layout_margin="16dp"
+            android:background="@drawable/btn_back"
+            />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/exitBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/exit_btn"
+            android:textColor="@color/black"
+            android:layout_margin="16dp"
+            android:background="@drawable/btn_back"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

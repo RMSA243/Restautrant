@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Restautrant</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_icon">Search Icon</string>
+    <string name="search">Search restaurant</string>
+    <string name="add_res">ADD</string>
+    <string name="list_item">Restaurant Info</string>
+    <string name="logo">add page logo</string>
+
+    <!-- Restaurant related -->
+    <string name="r_info1">Restaurant name</string>
+    <string name="r_info2">Restaurant location</string>
+    <string name="r_info3">Restaurant Phone</string>
+    <string name="r_info4">Restaurant description</string>
+    <string name="r_info5">Restaurant Ratings</string>
+
+    <!-- add page -->
+    <string name="resname">Restaurant name</string>
+    <string name="resloc">Restaurant location</string>
+    <string name="resphone">Restaurant Phone</string>
+    <string name="resdesc">Restaurant description</string>
+    <string name="resrating">Restaurant Ratings</string>
+    <string name="add_btn">Add New Restaurant</string>
+    <string name="exit_btn">Exit</string>
+
+</resources>
